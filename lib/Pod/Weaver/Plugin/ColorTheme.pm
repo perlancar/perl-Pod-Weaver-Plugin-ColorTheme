@@ -107,11 +107,12 @@ sub weave_section {
                     push @pod, <<"_";
 To show the colors of this theme (requires L<show-color-theme-swatch>):
 
- % show-color-theme-swatch $name
+ % show-color-theme-swatch $package
 
 _
                     # XXX show how to use with other apps
                 }
+            }
 
             # add POD section: DESCRIPTION
             {
