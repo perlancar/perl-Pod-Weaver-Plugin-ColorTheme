@@ -129,7 +129,7 @@ _
 
             $self->log(["Generated POD for '%s'", $filename]);
 
-        } # Sah::Schema::*
+        } # ColorTheme::*
     }
 }
 
